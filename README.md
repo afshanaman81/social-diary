@@ -3,6 +3,9 @@ step 1: Setup on GitHub
 create empty online repository (dont initialize it with readme or gitignore)
 On the local machine, follow the git commands shown on the gihub page as the result of creating the repo
 
+ERORR with facebook auth on the server:
+https://stackoverflow.com/questions/3610858/facebook-login-given-url-not-allowed-by-application-configuration
+https://stackoverflow.com/questions/37001004/facebook-login-message-url-blocked-this-redirect-failed-because-the-redirect
 
 https://www.facebook.com/dialog/oauth?
 response_type=code&
