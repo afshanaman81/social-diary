@@ -30,7 +30,9 @@ https://devcenter.heroku.com/articles/config-vars
 
 
 Make the setting on the Facebook Dev console:
-Add the 'https://social-diary.herokuapp.com/facebook/callback' to the list of Valid OAuth redirect URIs
+Add the
+'https://social-diary.herokuapp.com/facebook/callback' and
+'http://localhost:3001/facebook/callback' to the list of Valid OAuth redirect URIs
 
 
 

@@ -14,7 +14,7 @@ passport.use('facebook',
         {
             clientID: process.env.FB_APP_ID,
             clientSecret: process.env.FB_APP_SECRET,
-            callbackURL: '/facebook/callback/'
+            callbackURL: '/facebook/callback'
         },      //process.env.REDIRECT_URL
 	    function(accessToken, refreshToken, profile, done) {
 		    process.nextTick(function () {
