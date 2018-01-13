@@ -1,0 +1,37 @@
+<div id="login-wrapper" class="container">
+    <div class="login">
+        <h3 class="authTitle">Login or <a href="#">Sign up</a></h3>
+        <div class="row row-sm-offset-3 socialButtons">
+            <div class="col-xs-4 col-sm-2">
+                <a href="/facebook" class="btn btn-lg btn-block btn-facebook">
+                    <i class="fa fa-facebook visible-xs"></i>
+                    <span class="hidden-xs">Facebook</span>
+                </a>
+            </div>
+            <div class="col-xs-4 col-sm-2">
+                <a href="#" class="btn btn-lg btn-block btn-twitter">
+                    <i class="fa fa-twitter visible-xs"></i>
+                    <span class="hidden-xs">Twitter</span>
+                </a>
+            </div>
+            <div class="col-xs-4 col-sm-2">
+                <a href="#" class="btn btn-lg btn-block btn-google">
+                    <i class="fa fa-google-plus visible-xs"></i>
+                    <span class="hidden-xs">Google+</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="flash" hidden>
+        <div class="alert alert-danger">
+            <strong>Success!</strong> {{ message }}.
+        </div>
+
+        <div class="alert alert-info">
+            <strong>Info!</strong> Indicates a neutral informative change or action.
+        </div>
+    </div>
+</div>
+<script src="//cdnjs.cloudflare.com/ajax/libs/vue/2.3.1/vue.min.js"></script>
+<script src="/js/login.js"></script>
