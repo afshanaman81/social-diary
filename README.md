@@ -4,7 +4,11 @@ create empty online repository (dont initialize it with readme or gitignore)
 On the local machine, follow the git commands shown on the gihub page as the result of creating the repo
 
 
-
+https://www.facebook.com/dialog/oauth?
+response_type=code&
+redirect_uri=http%3A%2F%2Fsocial-diary.herokuapp.com%2F%2527https%3A%2F%2Fsocial-diary.herokuapp.com%2Ffacebook%2Fcallback%2527&
+scope=email&
+client_id=1925750270999770
 
 Step 2: Setup on Heroku
 - First create an empty app on Heroku
