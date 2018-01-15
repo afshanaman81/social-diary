@@ -36,7 +36,7 @@ router.get('/signout', function(req, res) {
 
 
 /*Routes for using Facebook Strategy*/
-router.get('/facebook', passport.authenticate('facebook', { scope: 'email' }))
+router.get('/facebook', passport.authenticate('facebook', { scope: ['email', 'user_photos', 'user_posts'] }))
 
 // handle the callback after facebook has authenticated the user
 router.get('/facebook/callback', passport.authenticate('facebook', {
