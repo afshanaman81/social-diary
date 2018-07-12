@@ -1,6 +1,7 @@
 Description: a web application to show 5 latest feeds from different social media accounts of a given user
 
 Setup:
+
 step 1: Setup on GitHub
 
 create empty online repository (dont initialize it with readme or gitignore)
